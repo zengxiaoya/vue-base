@@ -1,0 +1,21 @@
+/**
+ *  @author zengya
+ *  @date 2020-10-14
+ *  @description js编译处理插件babel的配置 
+ *  
+ */
+ {
+  "presets": [
+    ["env", {
+        "modules": false,
+        "targets": {
+        "browsers": ["> 1%", "last 2 versions", "not ie <= 8"]
+        }
+    }],
+    ["es2015", { "modules": false }]
+  ],
+  "plugins": [
+        ["transform-object-rest-spread"],
+        ["import", { "libraryName": "ant-design-vue", "libraryDirectory": "es", "style": "css" }] // `style: true` 会加载 less 文件
+    ]
+ } 

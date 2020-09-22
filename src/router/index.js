@@ -15,47 +15,7 @@ const router = new Router({
 		},
 		component: resolve => require(['../view/home'], resolve),
 		children: [
-			{
-				path: '/cloud-dimension', // 云仓维度
-				name: 'cloud-dimension',
-				meta: {
-					keepAlive: true,
-					isBack: false
-				},
-				component: resolve => require(['../view/inventory-record/cloud-dimension'], resolve)
-			},{
-				path: '/com-category', // 商品大类维度
-				name: 'com-category',
-				meta: {
-					keepAlive: true,
-					isBack: false
-				},
-				component: resolve => require(['../view/inventory-record/com-category'], resolve)
-			},{
-				path: '/seller-dimension', // 商家维度
-				name: 'seller-dimension',
-				meta: {
-					keepAlive: true,
-					isBack: false
-				},
-				component: resolve => require(['../view/inventory-record/seller-dimension'], resolve)
-			},{
-				path: '/sku-dimension', // SKU 维度
-				name: 'sku-dimension',
-				meta: {
-					keepAlive: true,
-					isBack: false
-				},
-				component: resolve => require(['../view/inventory-record/sku-dimension'], resolve)
-			},{
-				path: '/spu-dimension', //  SPU维度
-				name: 'spu-dimension',
-				meta: {
-					keepAlive: true,
-					isBack: false
-				},
-				component: resolve => require(['../view/inventory-record/spu-dimension'], resolve)
-			}
+			// 子路由
 		]
 	}, {
 		path: '/login',
