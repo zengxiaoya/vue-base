@@ -1,0 +1,39 @@
+/*
+ * 定义全局颜色：
+ * 主题色，文字标题字号，背景色等定义规范
+ * 
+ */
+
+// 主题色 → 文字 背景
+$color-theme: #ff0036;
+$color-assist: #FD8B30; // 辅助色
+$color-text-2: #222;
+$color-text-8: #888;
+$color-text-9: #999;
+$color-text-a4: #a4a4a4;
+$color-text-f: #fff;
+
+$color-theme-hover: #ff3660; // 主题色hover
+
+// 字号、字体 → 标题 正文
+$font-family: '微软雅黑, Arial, Helvetica, sans-serif';
+$font-size-small-s: 10px;
+$font-size-small: 12px;
+$font-size-small-l: 13px;
+$font-size-medium: 14px;
+$font-size-medium-l: 15px;
+$font-size-medium-x: 16px;
+$font-size-large: 18px;
+$font-size-large-x: 22px;
+$font-size-large-t: 26px;
+$font-size-large-b: 32px;
+
+// 圆角，边框
+$border-radius-s: 2px;
+$border-radius-l: 4px;
+$border-radius-x: 10px;
+$border-radius-max: 50%;
+$border-theme: 1px solid #ff0036;
+$border-theme-t: 2px solid #ff0036;
+$border-eb: 1px solid #ebebeb;
+$border-dd: 1px solid #ddd;
